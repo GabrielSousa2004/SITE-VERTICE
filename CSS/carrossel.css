@@ -1,0 +1,62 @@
+.card-img-circle {
+    border-radius: 100%;
+    width: 40px !important; /* Largura desejada para a imagem circular */
+    height: 100px !important; /* Altura desejada para a imagem circular */
+    margin: 0 auto; /* Centralizar horizontalmente a imagem */
+    display: block;
+    margin-top: 10px; /* Espaço superior entre a imagem e o conteúdo do card */
+    background-size: cover;
+    background-position: center;
+}
+
+.next{
+  font-size: 20px;
+  position: relative;
+  top: 0% !important;
+  left: 75% !important;
+}
+.ant{
+  font-size: 20px;
+  position: relative;
+  top: 0%;
+  left: 68%;
+  
+}
+
+#squareCard:hover{
+  background-color: black !important;
+  
+}
+  
+.card{
+   
+    box-shadow: 4px 4px 7px  rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+     min-height: 400px !important; 
+}
+  
+.card:hover{
+    transition: all 0.3s;
+}
+
+
+#seta{
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.h5{
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 1000px){
+  
+
+  .integrantes{
+    height: 50vh !important;
+  }
+
+  .next, .ant{
+    display: none !important;
+  }
+}

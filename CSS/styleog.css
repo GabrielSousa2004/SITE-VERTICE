@@ -1,0 +1,305 @@
+
+
+.cardB{
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.cardC{
+    width: 100vw;
+    height: 45vh;
+}
+
+.card-img-circle {
+    border-radius: 100%;
+    width: 45% !important; /* Largura desejada para a imagem circular */
+    height: 100% !important; /* Altura desejada para a imagem circular */
+    margin: 0 auto; /* Centralizar horizontalmente a imagem */
+    display: block;
+    margin-top: 10px; /* Espaço superior entre a imagem e o conteúdo do card */
+    background-size: cover;
+    background-position: center;
+   
+  }
+.card-body{
+    
+}
+
+card-imgArea{
+
+}
+  
+  
+  .card{
+       
+      box-shadow:  8px 10px 15px 0px  rgba(0, 0, 0, 0.25);
+      background-color: #000;
+      color: #fff;
+      cursor: pointer;
+      border: none;
+  }
+  
+  .card:hover{
+      transition: all 0.3s;
+  }
+  
+.owl-dots {
+  display: none;
+}
+.owl-nav{
+  font-size: 50px;
+}
+.owl-stage-outer{
+  padding-bottom: 18px !important;
+}
+
+#pg2{
+    
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#squaresBeneficiosDesc{
+    display: none;
+}
+
+
+@media (min-width: 1000px){
+    #itens{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+    
+    }
+}
+
+@media (max-width: 1000px){
+    .collapse, #nsei{
+        background-color: #fff !important;
+        height: 100vh !important;
+        width: 60vw !important;
+        z-index: 10;
+        transition: all 0.5s;
+        align-items:  center !important;
+        
+
+    }
+
+    .nav-item a{
+        font-weight: 300 !important;
+        text-align: left !important;
+
+    }
+    .ctt{
+        background-color:transparent !important;
+        color: rgb(0, 0, 0) !important;
+        box-shadow: none !important;
+        font-weight: 300 !important;
+    }
+
+    #espaco{
+        width: 0%;
+    }
+   
+    .navbar-toggler{
+        width: 50%;
+        border: none;
+        outline: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+    #brand{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+
+    
+
+    #arte{
+        display: none;
+        height: 0;
+        display: none !important;
+    }
+    #slogan{
+       margin-left: 0 !important;
+       justify-content: center !important;
+       width: 100% !important;
+       text-align: center;
+       height: 95% !important;
+       
+       
+    }
+    #slogan span{
+        margin: 0  !important;
+        font-size: 4rem !important;
+    }
+    #seta{
+        width: 20px !important;
+    }
+   
+    
+   
+    #blocos{
+        height: 50% !important;
+        width: 100% !important;
+    }
+   
+    .fa-solid{
+        font-size: 50px !important;
+    }
+
+    #seta{
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .h5{
+        margin-bottom: 0 !important;
+    }
+
+    #textQuemSomos{
+        font-size: 16px !important;
+        margin-bottom: 5px;
+    }
+
+    
+    
+    #pg2{
+        height:50% !important;
+        justify-content: start;
+        align-items: start;
+    }
+
+    #quartaParte{
+        height: 130vh !important;
+    }
+
+    #title{
+        height: 10vh !important;
+    }
+    #BoxCardNossosProjetos{
+        height: 200vh !important;
+        width: 100% !important;
+        justify-self: center !important;
+        align-self: center !important;
+    }
+    .cardNossosProjetos{
+        height: 30% !important;
+    }
+
+    .card-body{
+        height: 60% !important;
+    }
+    #imgNossosProjetos{
+        height: 40% !important;
+    }
+    #frase{
+        height: 60vh !important;
+    }
+    #aspas{
+        height: 80% !important;
+    }
+    #lispector{
+        height: 10% !important;
+    }
+
+    #textoEquipe{
+        
+    }
+
+    #nome{
+        font-size: 30px !important;
+    }
+    #funcao{
+        font-size: 20px !important;
+    }
+    #rede{
+        font-size: 30px !important;
+    }
+
+    #squaresBeneficiosDesc{
+        display: none ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #9219af;
+    }
+
+    #setaArea{
+        justify-content: flex-start;
+        align-items: center;
+        animation: showSeta 0.8s;
+        
+    }
+    #setaArea img{
+        margin-left: 10%;
+    }
+
+    #descArea{
+        justify-content: center;
+        align-items: flex-start;
+        animation: showDesc 1s;
+    }
+}
+
+@keyframes showSeta{
+    from{
+        
+        position: relative;
+        left: -12%;
+        top: 0;
+        
+    }
+   
+
+    to{
+        z-index: 1;
+        position: relative;
+        left: 0%;
+        
+
+    }
+}
+
+@keyframes showDesc{
+    from{
+        
+        position: relative;
+        left: -12%;
+        top: 0;
+        opacity: 0;
+    }
+   
+
+    to{
+        z-index: 1;
+        position: relative;
+        left: 0%;
+        opacity: 1;
+
+    }
+}
+
+@keyframes showSquares{
+    from{
+        position: relative;
+        right: -100%;
+        opacity: 0;
+        top: 0;
+    }
+    
+    to{
+        position: relative;
+        right: 0%;
+        opacity: 1;
+    }
+}
